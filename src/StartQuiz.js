@@ -24,7 +24,7 @@ const StartQuiz = () => {
     setError(null);
 
     try {
-      const response = await fetch(`http://localhost:5000/api/quizzes/${quizName}`);
+      const response = await fetch(`https://quizserver-glvu.onrender.com/api/quizzes/${quizName}`);
       const quizData = await response.json();
 
       if (!response.ok) {
