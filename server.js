@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB connection
-mongoose.connect("mongodb://localhost:27017/quiz", {
+mongoose.connect("mongodb+srv://jobseek:nA5X5O0D5RUYMjpM@cluster0.98tbj.mongodb.net/signup?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
