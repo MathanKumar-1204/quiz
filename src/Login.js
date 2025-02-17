@@ -8,7 +8,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-        const response = await fetch("http://localhost:5000/api/login", { // Change port to 5000
+        const response = await fetch("https://quizserver-glvu.onrender.com/api/login", { // Change port to 5000
 
         method: "POST",
         headers: {
